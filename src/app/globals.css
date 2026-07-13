@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@300;400;500;600;700&display=swap");
+
+@import "tailwindcss";
+
+@theme inline {
+  --color-forest: #2f4a2a;
+  --color-forest-dark: #1e3219;
+  --color-forest-light: #4a7a43;
+  --color-soil: #7a4e2d;
+  --color-soil-light: #a0633c;
+  --color-harvest: #c9a961;
+  --color-harvest-light: #dbbf82;
+  --color-cream: #f5efe3;
+  --color-cream-dark: #ede4d3;
+  --color-ink: #1b1b17;
+  --color-ink-light: #4a4a42;
+  --color-muted: #7a7a6e;
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-full: 9999px;
+}
+
+:root {
+  --background: #f5efe3;
+  --foreground: #1b1b17;
+  --card: #ffffff;
+  --card-foreground: #1b1b17;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: #c9a961;
+  color: #1b1b17;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5efe3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7a4e2d;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a0633c;
+}
+
+:focus-visible {
+  outline: 2px solid #c9a961;
+  outline-offset: 2px;
+}
