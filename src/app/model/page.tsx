@@ -1,21 +1,38 @@
+import Image from "next/image";
 import Container from "@/components/layout/Container";
 import Section from "@/components/ui/Section";
-import Eyebrow from "@/components/ui/Eyebrow";
 import { model } from "@/content/site";
 import { ArrowRight } from "lucide-react";
 
 export default function ModelPage() {
   return (
     <>
-      <section className="pt-32 pb-20 bg-cream">
+      <section className="pt-32 pb-12 bg-cream">
         <Container>
-          <Eyebrow label="Our model" />
-          <h1 className="mt-4 font-display text-5xl md:text-6xl font-semibold text-forest leading-tight max-w-3xl">
+          <p className="text-xs font-semibold uppercase tracking-widest text-harvest mb-4">
+            Our model
+          </p>
+          <h1 className="font-display text-5xl md:text-6xl font-semibold text-forest leading-tight max-w-3xl">
             {model.headline}
           </h1>
           <p className="mt-6 text-ink-light text-lg max-w-2xl leading-relaxed">
             {model.subheadline}
           </p>
+        </Container>
+      </section>
+
+      <section className="bg-cream pb-16">
+        <Container>
+          <div className="relative w-full aspect-[16/9] rounded-2xl overflow-hidden">
+            <Image
+              src="/images/value-chain.jpg"
+              alt="Eight-step integrated value chain from land preparation through soil improvement, nursery, cultivation, harvesting, processing, storage, to buyer fulfilment"
+              fill
+              sizes="(min-width: 768px) 80vw, 100vw"
+              className="object-contain"
+              priority
+            />
+          </div>
         </Container>
       </section>
 

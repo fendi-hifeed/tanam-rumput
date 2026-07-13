@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
@@ -24,12 +25,22 @@ export default function Header() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 group">
-          <span className="text-forest font-display font-semibold text-lg tracking-tight">
-            PLTR
-          </span>
-          <span className="hidden sm:inline text-ink-light text-sm font-sans">
-            Lampung Tanam Rumput
+        <Link href="/" className="flex items-center gap-3 group">
+          <Image
+            src="/images/logo.png"
+            alt="PLTR — PT Lampung Tanam Rumput"
+            width={36}
+            height={36}
+            className="w-9 h-9 object-contain"
+            priority
+          />
+          <span className="flex flex-col leading-none">
+            <span className="font-display text-forest font-semibold text-base tracking-tight">
+              PLTR
+            </span>
+            <span className="hidden sm:block text-[10px] uppercase tracking-widest text-ink-light mt-0.5">
+              Tanam Rumput
+            </span>
           </span>
         </Link>
 

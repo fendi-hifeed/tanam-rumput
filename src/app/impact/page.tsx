@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Container from "@/components/layout/Container";
 import Section from "@/components/ui/Section";
 import Eyebrow from "@/components/ui/Eyebrow";
@@ -22,42 +23,59 @@ export default function ImpactPage() {
 
       <Section background="white">
         <Container>
-          <div className="space-y-16">
+          <div className="relative w-full aspect-[1376/768] rounded-2xl overflow-hidden">
+            <Image
+              src="/images/theory-of-change.jpg"
+              alt="Theory of change diagram showing activities producing outputs that lead to outcomes"
+              fill
+              sizes="(min-width: 768px) 80vw, 100vw"
+              className="object-contain"
+              priority
+            />
+          </div>
+        </Container>
+      </Section>
+
+      <Section background="cream">
+        <Container>
+          <Eyebrow label="The model in detail" />
+          <h2 className="mt-4 font-display text-3xl md:text-4xl font-semibold text-forest mb-12">
+            Activities, outputs, outcomes
+          </h2>
+
+          <div className="space-y-12">
             {[
               {
                 label: "Activities",
                 items: theoryOfChange.activities,
                 desc: "What PLTR does",
                 color: "bg-forest",
-                textColor: "text-forest",
               },
               {
                 label: "Outputs",
                 items: theoryOfChange.outputs,
                 desc: "What activities deliver",
                 color: "bg-harvest",
-                textColor: "text-soil",
               },
               {
                 label: "Short-term outcomes",
                 items: theoryOfChange.outcomes,
                 desc: "What beneficiaries achieve",
                 color: "bg-soil",
-                textColor: "text-soil",
               },
             ].map((group) => (
               <div key={group.label}>
-                <div className="flex items-baseline gap-4 mb-6">
-                  <h2 className="font-display text-2xl font-semibold text-forest">
+                <div className="flex items-baseline gap-4 mb-5">
+                  <h3 className="font-display text-xl font-semibold text-forest">
                     {group.label}
-                  </h2>
+                  </h3>
                   <span className="text-sm text-muted">{group.desc}</span>
                 </div>
-                <div className="grid md:grid-cols-2 gap-4">
+                <div className="grid md:grid-cols-2 gap-3">
                   {group.items.map((item) => (
                     <div
                       key={item}
-                      className="flex items-start gap-3 bg-cream rounded-xl p-5"
+                      className="flex items-start gap-3 bg-white rounded-xl p-5 border border-cream-dark"
                     >
                       <span className={`w-2 h-2 rounded-full mt-1.5 flex-shrink-0 ${group.color}`} />
                       <p className="text-sm text-ink-light leading-relaxed">
@@ -72,20 +90,39 @@ export default function ImpactPage() {
         </Container>
       </Section>
 
-      <Section background="cream">
+      <Section background="white">
         <Container>
-          <Eyebrow label="KPIs" />
-          <h2 className="mt-4 font-display text-4xl font-semibold text-forest mb-12">
-            How we measure impact
-          </h2>
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <Eyebrow label="Measurement" />
+              <h2 className="mt-4 font-display text-3xl md:text-4xl font-semibold text-forest leading-tight">
+                KPIs we track
+              </h2>
+              <p className="mt-4 text-ink-light leading-relaxed">
+                We monitor performance across land restoration, soil health,
+                biomass production, worker activation and recurring commercial
+                sales.
+              </p>
+            </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="relative aspect-[4/3] w-full rounded-2xl overflow-hidden">
+              <Image
+                src="/images/kpi-charts.jpg"
+                alt="Charts and graphs representing hectares growth, progress, growth trajectory, and impact progress bars"
+                fill
+                sizes="(min-width: 768px) 50vw, 100vw"
+                className="object-cover"
+              />
+            </div>
+          </div>
+
+          <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
             {kpis.map((kpi) => (
               <div
                 key={kpi.id}
-                className="bg-white rounded-xl p-6 border border-cream-dark"
+                className="bg-cream rounded-xl p-6 border border-cream-dark"
               >
-                <p className="text-xs font-semibold uppercase tracking-widest text-muted mb-3">
+                <p className="text-xs font-semibold uppercase tracking-widest text-muted mb-3 line-clamp-2">
                   {kpi.label}
                 </p>
                 <div className="flex items-baseline gap-2">

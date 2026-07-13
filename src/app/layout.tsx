@@ -5,6 +5,9 @@ import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://tanamrumput.store"),
+  icons: {
+    icon: "/icon.png",
+  },
   title: {
     default: "PT Lampung Tanam Rumput (PLTR) — Restoring Land, Livelihoods and Supply Chains",
     template: "%s | PT Lampung Tanam Rumput",
@@ -35,9 +38,9 @@ export const metadata: Metadata = {
       "Restoring degraded land into productive agricultural infrastructure in Lampung, Indonesia.",
     images: [
       {
-        url: "/og.png",
-        width: 1200,
-        height: 630,
+        url: "/images/logo-bg.jpg",
+        width: 1024,
+        height: 1024,
         alt: "PT Lampung Tanam Rumput",
       },
     ],

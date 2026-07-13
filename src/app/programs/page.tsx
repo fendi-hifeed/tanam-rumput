@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Container from "@/components/layout/Container";
 import Section from "@/components/ui/Section";
 import Eyebrow from "@/components/ui/Eyebrow";
@@ -24,6 +25,21 @@ export default function ProgramsPage() {
             — each reinforcing the others to create durable restoration and
             lasting impact.
           </p>
+        </Container>
+      </section>
+
+      <section className="bg-cream pb-20">
+        <Container>
+          <div className="relative w-full aspect-[4/3] md:aspect-[16/9] rounded-2xl overflow-hidden">
+            <Image
+              src="/images/woman-nursery.jpg"
+              alt="A rural Indonesian woman in a headscarf holding a tray of seedlings in a nursery, with rows of vegetation and hills in the background"
+              fill
+              sizes="(min-width: 768px) 80vw, 100vw"
+              className="object-cover"
+              priority
+            />
+          </div>
         </Container>
       </section>
 
@@ -96,6 +112,36 @@ export default function ProgramsPage() {
           </Section>
         );
       })}
+
+      <Section background="harvest">
+        <Container>
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="relative aspect-[4/3] w-full rounded-2xl overflow-hidden">
+              <Image
+                src="/images/women-program.jpg"
+                alt="Three women working together in a nursery, planting and tending to seedlings, surrounded by plants"
+                fill
+                sizes="(min-width: 768px) 50vw, 100vw"
+                className="object-cover"
+              />
+            </div>
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-widest text-soil mb-4">
+                Women-powered operations
+              </p>
+              <h2 className="font-display text-3xl md:text-4xl font-semibold text-forest leading-tight">
+                The people behind every hectare restored
+              </h2>
+              <p className="mt-6 text-forest/80 leading-relaxed">
+                Women are part of PLTR&apos;s business infrastructure, not a
+                separate social programme. They are the hands that plant, tend,
+                harvest, process and deliver — building practical skills,
+                recurring income and a pathway to higher-value roles.
+              </p>
+            </div>
+          </div>
+        </Container>
+      </Section>
     </>
   );
 }
