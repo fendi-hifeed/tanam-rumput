@@ -11,7 +11,7 @@ export default function CTAStrip() {
         <div className="bg-forest rounded-3xl p-12 md:p-16">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="font-display text-3xl md:text-4xl font-semibold text-cream">
-              Partner with PLTR
+              Partner with Carbon Bank
             </h2>
             <p className="mt-4 text-cream/70 leading-relaxed">
               Whether you are a commercial buyer, grant funder, land partner or

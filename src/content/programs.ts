@@ -4,7 +4,7 @@ export const programs = [
     label: "Land Restoration",
     headline: "From degraded liability to productive asset",
     description:
-      "PLTR targets degraded and underutilised land that has lost its productivity and economic value. We apply soil improvement, establish regenerative vegetation systems using grasses, legumes, seedlings and commercial biomass crops, and embed the land in a commercial operating model that creates ongoing economic incentive for maintenance.",
+      "Carbon Bank targets degraded and underutilised land that has lost its productivity and economic value. We apply soil improvement, establish regenerative vegetation systems using grasses, legumes, seedlings and commercial biomass crops, and embed the land in a commercial operating model that creates ongoing economic incentive for maintenance.",
     activities: [
       "Soil assessment and amendment",
       "Soil pH and nutrient balance restoration",
@@ -26,7 +26,7 @@ export const programs = [
     label: "Women's Livelihood",
     headline: "Paid work. Practical skills. Formal supply chains.",
     description:
-      "Rural women are integrated as paid operators, workers and suppliers — not as a separate social programme, but as part of PLTR's operating infrastructure. Over two years, PLTR plans to engage 100 low-income rural women through phased, paid roles. Selected participants progress into recurring workers, team leaders and local suppliers.",
+      "Rural women are integrated as paid operators, workers and suppliers — not as a separate social programme, but as part of Carbon Bank's operating infrastructure. Over two years, Carbon Bank plans to engage 100 low-income rural women through phased, paid roles. Selected participants progress into recurring workers, team leaders and local suppliers.",
     activities: [
       "Nursery and seedling production",
       "Land preparation and cultivation",
@@ -49,7 +49,7 @@ export const programs = [
     label: "Commercial Biomass & Nursery",
     headline: "The revenue engine that sustains restoration",
     description:
-      "PLTR's commercial operations generate revenue from forage and biomass sales, seedlings and planting materials, contract cultivation, primary processing, storage and land-management services. Target customers include livestock farms, feed producers, agricultural companies, cooperatives and institutional buyers. Sales are developed through direct B2B transactions, recurring supply agreements and institutional partnerships.",
+      "Carbon Bank's commercial operations generate revenue from forage and biomass sales, seedlings and planting materials, contract cultivation, primary processing, storage and land-management services. Target customers include livestock farms, feed producers, agricultural companies, cooperatives and institutional buyers. Sales are developed through direct B2B transactions, recurring supply agreements and institutional partnerships.",
     activities: [
       "Forage and biomass production",
       "Seedling and planting material cultivation",

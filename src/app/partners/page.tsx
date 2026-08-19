@@ -16,7 +16,7 @@ const tracks = [
     label: "B2B Buyers",
     headline: "Reliable local supply for your operations",
     description:
-      "PLTR supplies forage, biomass and planting materials to livestock farms, feed producers, agricultural companies and cooperatives. We offer consistent quality, local logistics and the ability to scale production based on your requirements.",
+      "Carbon Bank supplies forage, biomass and planting materials to livestock farms, feed producers, agricultural companies and cooperatives. We offer consistent quality, local logistics and the ability to scale production based on your requirements.",
     outcomes: [
       "Consistent quality-assured raw materials",
       "Reduced logistics complexity with local sourcing",
@@ -30,7 +30,7 @@ const tracks = [
     label: "Funders & Grant Partners",
     headline: "A model where restoration pays for itself",
     description:
-      "PLTR offers grant funders a replicable, commercially grounded restoration model. Revenue from biomass and nursery operations creates the economic incentive to maintain restored land after project funding ends — impact that outlives the grant.",
+      "Carbon Bank offers grant funders a replicable, commercially grounded restoration model. Revenue from biomass and nursery operations creates the economic incentive to maintain restored land after project funding ends — impact that outlives the grant.",
     outcomes: [
       "Measurable impact with clear theory of change",
       "Commercial sustainability beyond grant period",
@@ -44,7 +44,7 @@ const tracks = [
     label: "Land & Project Partners",
     headline: "Turn underperforming land into productive assets",
     description:
-      "PLTR works with landowners, village governments and project partners to convert degraded or underutilised land into productive agricultural infrastructure. Landowners gain a pathway to economic value; project partners gain implementation capacity.",
+      "Carbon Bank works with landowners, village governments and project partners to convert degraded or underutilised land into productive agricultural infrastructure. Landowners gain a pathway to economic value; project partners gain implementation capacity.",
     outcomes: [
       "Land restored to productive use",
       "Recurring revenue from commercial output",
@@ -58,7 +58,7 @@ const tracks = [
     label: "Women & Workers",
     headline: "Paid work, training and a pathway to more",
     description:
-      "PLTR recruits low-income rural women for paid roles across nursery operations, land preparation, planting, maintenance, harvesting, processing and local supply. Selected participants progress into recurring workers, team leaders and local suppliers.",
+      "Carbon Bank recruits low-income rural women for paid roles across nursery operations, land preparation, planting, maintenance, harvesting, processing and local supply. Selected participants progress into recurring workers, team leaders and local suppliers.",
     outcomes: [
       "Paid training and work in agricultural operations",
       "Practical skills in regenerative agriculture",
@@ -76,7 +76,7 @@ export default function PartnersPage() {
         <Container>
           <Eyebrow label="Partnerships" />
           <h1 className="mt-4 font-display text-5xl md:text-6xl font-semibold text-forest leading-tight">
-            Partner with PLTR
+            Partner with Carbon Bank
           </h1>
           <p className="mt-6 text-ink-light text-lg max-w-2xl leading-relaxed">
             Whether you are a commercial buyer, grant funder, land partner or

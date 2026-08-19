@@ -13,7 +13,7 @@ export default function AboutPage() {
         <Container>
           <div className="grid md:grid-cols-3 gap-12 items-center">
             <div className="md:col-span-2">
-              <Eyebrow label="About PLTR" />
+              <Eyebrow label="About Carbon Bank" />
               <h1 className="mt-4 font-display text-5xl md:text-6xl font-semibold text-forest leading-tight">
                 {about.headline}
               </h1>
@@ -21,7 +21,7 @@ export default function AboutPage() {
             <div className="relative aspect-square w-full max-w-xs md:ml-auto rounded-2xl overflow-hidden bg-white">
               <Image
                 src="/images/logo-bg.jpg"
-                alt="PLTR logo — PT Lampung Tanam Rumput, Regenerative Agriculture"
+                alt="Carbon Bank logo — Regenerative Agriculture"
                 fill
                 sizes="(min-width: 768px) 33vw, 80vw"
                 className="object-contain p-6"

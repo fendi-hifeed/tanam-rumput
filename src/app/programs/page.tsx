@@ -21,7 +21,7 @@ export default function ProgramsPage() {
             Three integrated pillars
           </h1>
           <p className="mt-6 text-ink-light text-lg max-w-2xl leading-relaxed">
-            PLTR&apos;s operating model is built on three interconnected pillars
+            Carbon Bank&apos;s operating model is built on three interconnected pillars
             — each reinforcing the others to create durable restoration and
             lasting impact.
           </p>
@@ -133,7 +133,7 @@ export default function ProgramsPage() {
                 The people behind every hectare restored
               </h2>
               <p className="mt-6 text-forest/80 leading-relaxed">
-                Women are part of PLTR&apos;s business infrastructure, not a
+                Women are part of Carbon Bank&apos;s business infrastructure, not a
                 separate social programme. They are the hands that plant, tend,
                 harvest, process and deliver — building practical skills,
                 recurring income and a pathway to higher-value roles.

@@ -48,7 +48,7 @@ export default function ImpactPage() {
               {
                 label: "Activities",
                 items: theoryOfChange.activities,
-                desc: "What PLTR does",
+                desc: "What Carbon Bank does",
                 color: "bg-forest",
               },
               {

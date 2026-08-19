@@ -9,11 +9,11 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <p className="font-display font-semibold text-cream text-lg mb-2">
-              {site.shortName}
-            </p>
-            <p className="text-sm font-display text-cream/60 mb-4">
+            <p className="font-display font-semibold text-cream text-lg mb-1">
               {site.name}
+            </p>
+            <p className="text-xs font-mono text-cream/60 mb-4">
+              {site.domain}
             </p>
             <p className="text-sm leading-relaxed text-cream/70 max-w-xs">
               {site.tagline}

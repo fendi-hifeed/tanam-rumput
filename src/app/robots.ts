@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://tanamrumput.store/sitemap.xml",
+    sitemap: "https://carbonbank.id/sitemap.xml",
   };
 }

@@ -92,7 +92,7 @@ export const metrics = {
 
 export const theoryOfChange = {
   principle:
-    "PLTR's theory of change starts from the principle that degraded land will only remain productive when local communities have a recurring economic reason to maintain it.",
+    "Carbon Bank's theory of change starts from the principle that degraded land will only remain productive when local communities have a recurring economic reason to maintain it.",
   activities: [
     "Rehabilitate degraded and underutilised land",
     "Improve soil condition",

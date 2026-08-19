@@ -1,18 +1,18 @@
-# Logo Design Prompt — PT Lampung Tanam Rumput (PLTR)
+# Logo Design Prompt — Carbon Bank (carbonbank.id)
 
 ## Company Identity
 
-**Full name:** PT Lampung Tanam Rumput
-**Short name:** PLTR
+**Brand name:** Carbon Bank (`carbonbank.id`)
+**Legal name:** PT Lampung Tanam Rumput
 **Tagline:** "Soil first. People always."
 **Industry:** Regenerative agriculture — land restoration, forage cultivation, nursery operations, commercial biomass production
 **Location:** Lampung Province, Indonesia
 
 ---
 
-## What PLTR Does
+## What Carbon Bank Does
 
-PLTR transforms degraded and underutilised land into productive regenerative agricultural infrastructure. Key activities:
+Carbon Bank transforms degraded and underutilised land into productive regenerative agricultural infrastructure. Key activities:
 - Soil health improvement
 - Regenerative forage and biomass cultivation
 - Commercial nursery operations

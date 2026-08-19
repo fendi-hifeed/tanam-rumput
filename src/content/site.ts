@@ -1,14 +1,16 @@
 export const site = {
-  name: "PT Lampung Tanam Rumput",
-  shortName: "PLTR",
+  name: "Carbon Bank",
+  legalName: "PT Lampung Tanam Rumput",
+  shortName: "Carbon Bank",
   tagline: "Soil first. People always.",
   description:
     "Restoring degraded and underutilised land in Lampung into productive regenerative agricultural infrastructure — creating economic incentive to maintain land, income for rural communities, and reliable supply for agricultural businesses.",
-  url: "https://tanamrumput.store",
-  email: "maya@tanamrumput.store",
+  url: "https://carbonbank.id",
+  domain: "carbonbank.id",
+  email: "maya@carbonbank.id",
   founded: "5 February 2024",
   place: "Lampung Province, Indonesia",
-  legalEntity: "Limited Liability Company (PT)",
+  legalEntity: "Limited Liability Company (PT) — PT Lampung Tanam Rumput",
   industry:
     "Agriculture — regenerative land development, forage cultivation, nursery operations, and commercial biomass production.",
 };
@@ -23,7 +25,7 @@ export const problem = {
 export const hero = {
   headline: "Land restored.\nLives renewed.\nMarkets secured.",
   subheadline:
-    "PLTR transforms degraded land in Lampung into productive regenerative agricultural infrastructure — connecting soil health, rural livelihoods and commercial supply chains.",
+    "Carbon Bank transforms degraded land in Lampung into productive regenerative agricultural infrastructure — connecting soil health, rural livelihoods and commercial supply chains.",
   cta: {
     primary: "Read our impact",
     secondary: "Partner with us",
@@ -41,11 +43,11 @@ export const nav = [
 ];
 
 export const about = {
-  headline: "Why PLTR exists",
+  headline: "Why Carbon Bank exists",
   story: [
-    "PT Lampung Tanam Rumput (PLTR) was established to address a fundamental rural challenge: degraded and underutilised land that has lost its productivity, economic value and ability to support sustainable livelihoods.",
-    "PLTR restores land by improving soil conditions and establishing productive vegetation systems based on grasses, legumes, seedlings and commercial biomass. Our approach is designed to improve soil functionality, increase productive land cover and convert previously underperforming land into agricultural infrastructure that can supply raw materials to livestock, feed and agricultural businesses.",
-    "Unlike short-term land rehabilitation projects, PLTR connects restoration with a commercial operating model. Revenue from forage, biomass, seedlings, cultivation, processing, storage and land-management services provides an economic incentive to maintain and expand restored land.",
+    "Carbon Bank (operated by PT Lampung Tanam Rumput) was established to address a fundamental rural challenge: degraded and underutilised land that has lost its productivity, economic value and ability to support sustainable livelihoods.",
+    "Carbon Bank restores land by improving soil conditions and establishing productive vegetation systems based on grasses, legumes, seedlings and commercial biomass. Our approach is designed to improve soil functionality, increase productive land cover and convert previously underperforming land into agricultural infrastructure that can supply raw materials to livestock, feed and agricultural businesses.",
+    "Unlike short-term land rehabilitation projects, Carbon Bank connects restoration with a commercial operating model. Revenue from forage, biomass, seedlings, cultivation, processing, storage and land-management services provides an economic incentive to maintain and expand restored land.",
     "Rural women are integrated into the operating model as paid nursery operators, cultivation workers, land-maintenance teams, harvesting and processing workers, warehouse operators and local suppliers. This enables women to gain practical skills, recurring income and access to formal agricultural supply chains.",
   ],
   targetCustomers: [
@@ -65,7 +67,7 @@ export const about = {
 export const model = {
   headline: "An integrated value chain that makes restoration pay",
   subheadline:
-    "PLTR's model integrates land preparation, soil improvement, nursery development, cultivation, harvesting, primary processing, storage, and buyer fulfilment. Each step generates revenue and creates the economic incentive to maintain restored land.",
+    "Carbon Bank's model integrates land preparation, soil improvement, nursery development, cultivation, harvesting, primary processing, storage, and buyer fulfilment. Each step generates revenue and creates the economic incentive to maintain restored land.",
   steps: [
     {
       label: "Land Preparation",
@@ -109,7 +111,7 @@ export const model = {
     },
   ],
   whyDurable:
-    "Unlike short-term restoration projects, PLTR embeds land recovery in a commercial value chain. Biomass and nursery revenue creates a recurring economic incentive to maintain and expand restored land — after grant funding ends.",
+    "Unlike short-term restoration projects, Carbon Bank embeds land recovery in a commercial value chain. Biomass and nursery revenue creates a recurring economic incentive to maintain and expand restored land — after grant funding ends.",
 };
 
 export const reports = {

@@ -13,7 +13,7 @@ const inquiryTypes = [
   "B2B supply partnership",
   "Funding / grant partnership",
   "Land or project partnership",
-  "Work with PLTR",
+  "Work with Carbon Bank",
 ];
 
 export default function ContactPage() {
@@ -45,7 +45,7 @@ export default function ContactPage() {
           </h1>
           <p className="mt-6 text-ink-light text-lg max-w-2xl leading-relaxed">
             We welcome conversations with commercial buyers, grant funders, land
-            partners, project collaborators and anyone interested in PLTR&apos;s
+            partners, project collaborators and anyone interested in Carbon Bank&apos;s
             work.
           </p>
         </Container>
@@ -206,7 +206,7 @@ export default function ContactPage() {
                         setForm({ ...form, message: e.target.value })
                       }
                       className="w-full px-4 py-3 rounded-xl bg-white border border-cream-dark text-ink placeholder:text-muted focus:outline-none focus:border-forest transition-colors resize-none"
-                      placeholder="Tell us about your interest in PLTR..."
+                      placeholder="Tell us about your interest in Carbon Bank..."
                     />
                   </div>
 

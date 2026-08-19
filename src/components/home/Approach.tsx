@@ -38,7 +38,7 @@ export default function Approach() {
     <Section>
       <Container>
         <div className="text-center mb-16">
-          <Eyebrow label="How PLTR works" className="justify-center" />
+          <Eyebrow label="How Carbon Bank works" className="justify-center" />
           <h2 className="mt-4 font-display text-4xl md:text-5xl font-semibold text-forest">
             Three pillars. One integrated model.
           </h2>

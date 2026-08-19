@@ -23,7 +23,7 @@ export default function Metrics() {
             Early results. Clear trajectory.
           </h2>
           <p className="mt-4 text-ink-light text-lg max-w-2xl">
-            PLTR is in revenue-generating early commercial stage. Current
+            Carbon Bank is in revenue-generating early commercial stage. Current
             operations provide the foundation for planned scale.
           </p>
         </div>

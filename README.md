@@ -1,6 +1,6 @@
-# PT Lampung Tanam Rumput (PLTR)
+# Carbon Bank (carbonbank.id)
 
-Website for PT Lampung Tanam Rumput — regenerative land restoration, commercial biomass, and women's livelihood programme in Lampung, Indonesia.
+Website for Carbon Bank (operated by PT Lampung Tanam Rumput) — regenerative land restoration, commercial biomass, and women's livelihood programme in Lampung, Indonesia.
 
 ## Stack
 

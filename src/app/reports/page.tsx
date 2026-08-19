@@ -1,7 +1,7 @@
 import Container from "@/components/layout/Container";
 import Section from "@/components/ui/Section";
 import Eyebrow from "@/components/ui/Eyebrow";
-import { reports } from "@/content/site";
+import { reports, site } from "@/content/site";
 import { FileText, DollarSign, BarChart3, Download } from "lucide-react";
 
 export default function ReportsPage() {
@@ -14,7 +14,7 @@ export default function ReportsPage() {
             Reports & financial summary
           </h1>
           <p className="mt-6 text-ink-light text-lg max-w-2xl leading-relaxed">
-            PLTR is committed to transparency with grantors, partners and
+            Carbon Bank is committed to transparency with grantors, partners and
             stakeholders. Below is a summary of operating financials and grant
             utilisation.
           </p>
@@ -45,7 +45,7 @@ export default function ReportsPage() {
               </p>
               <div className="border-t border-cream-dark pt-4">
                 <p className="text-xs text-muted">
-                  PLTR has not received any external grant, financial award,
+                  Carbon Bank has not received any external grant, financial award,
                   bank loan, institutional investment or philanthropic funding
                   to date.
                 </p>
@@ -98,7 +98,7 @@ export default function ReportsPage() {
             {[
               {
                 title: "Theory of Change",
-                desc: "One-page overview of PLTR's theory of change and impact model",
+                desc: "One-page overview of Carbon Bank's theory of change and impact model",
                 icon: FileText,
               },
               {
@@ -147,13 +147,13 @@ export default function ReportsPage() {
             </h2>
             <p className="mt-4 text-forest/80 leading-relaxed">
               All information provided in this application is accurate to the best
-              of PLTR&apos;s knowledge. For additional documentation or
+              of Carbon Bank&apos;s knowledge. For additional documentation or
               clarification, please contact{" "}
               <a
-                href={`mailto:${"maya@tanamrumput.store"}`}
+                href={`mailto:${site.email}`}
                 className="underline underline-offset-2"
               >
-                maya@tanamrumput.store
+                {site.email}
               </a>
               .
             </p>

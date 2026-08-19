@@ -5,17 +5,19 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tanamrumput.store"),
+  metadataBase: new URL("https://carbonbank.id"),
   icons: {
     icon: "/icon.png",
   },
   title: {
-    default: "PT Lampung Tanam Rumput (PLTR) — Restoring Land, Livelihoods and Supply Chains",
-    template: "%s | PT Lampung Tanam Rumput",
+    default: "Carbon Bank — Restoring Land, Livelihoods and Supply Chains",
+    template: "%s | Carbon Bank",
   },
   description:
-    "PLTR transforms degraded and underutilised land in Lampung into productive regenerative agricultural infrastructure. We restore soil health, grow commercial biomass, and create recurring rural income — especially for women.",
+    "Carbon Bank transforms degraded and underutilised land in Lampung into productive regenerative agricultural infrastructure. We restore soil health, grow commercial biomass, and create recurring rural income — especially for women.",
   keywords: [
+    "carbon bank",
+    "carbonbank.id",
     "regenerative agriculture",
     "land restoration",
     "Lampung",
@@ -24,17 +26,16 @@ export const metadata: Metadata = {
     "women empowerment",
     "rural livelihoods",
     "Indonesia agriculture",
-    "carbon bank",
     "sustainable farming",
   ],
-  authors: [{ name: "PT Lampung Tanam Rumput" }],
-  creator: "PT Lampung Tanam Rumput",
+  authors: [{ name: "Carbon Bank" }],
+  creator: "Carbon Bank",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://tanamrumput.store",
-    siteName: "PT Lampung Tanam Rumput",
-    title: "PT Lampung Tanam Rumput (PLTR)",
+    url: "https://carbonbank.id",
+    siteName: "Carbon Bank",
+    title: "Carbon Bank — Regenerative Agricultural Infrastructure",
     description:
       "Restoring degraded land into productive agricultural infrastructure in Lampung, Indonesia.",
     images: [
@@ -42,16 +43,16 @@ export const metadata: Metadata = {
         url: "/images/logo-bg.jpg",
         width: 1024,
         height: 1024,
-        alt: "PT Lampung Tanam Rumput",
+        alt: "Carbon Bank",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "PT Lampung Tanam Rumput (PLTR)",
+    title: "Carbon Bank — Regenerative Agricultural Infrastructure",
     description:
       "Restoring degraded land into productive agricultural infrastructure in Lampung.",
-    images: ["/og.png"],
+    images: ["/images/logo-bg.jpg"],
   },
   robots: {
     index: true,

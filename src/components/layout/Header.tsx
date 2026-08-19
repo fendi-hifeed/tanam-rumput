@@ -28,7 +28,7 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-3 group">
           <Image
             src="/images/logo.png"
-            alt="PLTR — PT Lampung Tanam Rumput"
+            alt="Carbon Bank — carbonbank.id"
             width={36}
             height={36}
             className="w-9 h-9 object-contain"
@@ -36,10 +36,10 @@ export default function Header() {
           />
           <span className="flex flex-col leading-none">
             <span className="font-display text-forest font-semibold text-base tracking-tight">
-              PLTR
+              Carbon Bank
             </span>
             <span className="hidden sm:block text-[10px] uppercase tracking-widest text-ink-light mt-0.5">
-              Tanam Rumput
+              carbonbank.id
             </span>
           </span>
         </Link>
